@@ -1,0 +1,43 @@
+.usercontainer {
+  width: 600px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+}
+
+.usercontainer > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.usercontainer > h1 {
+  text-align: center;
+  text-shadow: 2px 2px 5px orange;
+  font-size: 36px;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: #000000;
+  text-decoration: none;
+}
+
+a {
+  background-color: rgb(172, 171, 171);
+  padding: 10px;
+  margin: 5px;
+  font-size: xx-large;
+  text-shadow: 2px 2px 5px rgba(255, 166, 0, 0.3);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(255, 166, 0, 0.219);
+  margin-top: 20px;
+}
+
+video {
+  display: block;
+}

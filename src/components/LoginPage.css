@@ -1,0 +1,42 @@
+.login-container {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.login-container > h1 {
+  text-align: center;
+}
+
+.login-container > input,
+button {
+  margin: 10px;
+  padding: 10px;
+  font-size: medium;
+  margin-top: 30px;
+}
+
+.login-container > input {
+  border: none;
+  border-bottom: 2px solid black;
+}
+
+.login-container > button {
+  color: white;
+  background-color: black;
+  border-radius: 20px;
+  margin-top: 30px;
+}
+
+.login-container > div > input {
+  margin-left: 10px;
+  padding: 10px;
+  font-size: medium;
+  margin-top: 30px;
+}
