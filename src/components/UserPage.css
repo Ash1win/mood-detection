@@ -41,3 +41,9 @@ a {
 video {
   display: block;
 }
+
+@media only screen and (max-width: 380px) {
+  .usercontainer {
+    width: 80vw;
+  }
+}

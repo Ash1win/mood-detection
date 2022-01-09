@@ -26,10 +26,6 @@ export default function LoginPage(){
             <h1>Login</h1>
             <input type="text" placeholder="username" onChange={ e => setUserName(e.target.value) } value={userName} />
             <input type="password" placeholder="password" onChange={ e => setPassword(e.target.value) } value={password} />
-            <div>
-                <input type="checkbox" name="rme"/>
-                <label htmlFor="rme">remember me</label>
-            </div>
             <button onClick={ handleLogin } >Login</button>    
         </div>
     )
